@@ -10,7 +10,7 @@ class ContactController extends Controller
 {
     public function inquiry(Request $request)
     {
-        Mail::to('mikemanimation@gmail.com')->send(new ContactUs($request->all()));
+        Mail::to('mikemanimation@gmail.com')->cc('michael@icreate.live')->send(new ContactUs($request->all()));
 
         return back();
     }

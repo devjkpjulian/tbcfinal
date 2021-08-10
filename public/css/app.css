@@ -930,6 +930,9 @@ video {
 .bg-left {
 	background-position: left;
 }
+.bg-bottom {
+	background-position: bottom;
+}
 .p-2 {
 	padding: 0.5rem;
 }
