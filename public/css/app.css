@@ -1155,6 +1155,11 @@ video {
 	color: rgba(17, 24, 39, var(--tw-text-opacity));
 }
 
+.active\:text-sky-900:active {
+	--tw-text-opacity: 1;
+	color: rgba(12, 74, 110, var(--tw-text-opacity));
+}
+
 .active\:hover\:text-sky-900:active:hover {
 	--tw-text-opacity: 1;
 	color: rgba(12, 74, 110, var(--tw-text-opacity));
